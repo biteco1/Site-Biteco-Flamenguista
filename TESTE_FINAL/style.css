@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, red, black);  /* Gradiente de vermelho para preto */
+    height: 100vh;  /* Faz com que o fundo cubra toda a altura da tela */
+    margin: 0;  /* Remove as margens padrão */
+    padding: 0;  /* Remove o padding */
+}
+
+img {
+    width: 500px;  /* Tamanho da imagem */
+    margin-top: 30px;  /* Distância da imagem para o topo */
+}
+
+h1 {
+    color: rgb(26, 26, 26);  /* Cor do texto */
+    font-size: 50px;  /* Tamanho da fonte */
+    font-weight: bold;  /* Negrito */
+    margin-top: 50px;  /* Distância do topo */
+}
+
+h2 {
+    color: rgb(26, 26, 26);  /* Cor do texto */
+    font-size: 40px;  /* Tamanho da fonte */
+    font-weight: bold;  /* Negrito */
+}
+
+.info {
+    display: flex;  /* Flexbox para colocar os elementos lado a lado */
+    justify-content: center;  /* Centraliza o conteúdo */
+    align-items: center;  /* Alinha verticalmente */
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.numero {
+    margin-right: 10px;  /* Espaço entre o número e o nome */
+    color: rgb(242, 242, 246);  /* Cor do número */
+}
+
+.nome {
+    color: rgb(249, 249, 249);  /* Cor do nome */
+}
